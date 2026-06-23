@@ -65,14 +65,15 @@ export default function Navbar() {
               ))}
             </nav>
 
-            <Button asChild>
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSc83Q5J4G-IRYqQ5FH5blbdKvOXyZP5VcPN0HEmNb2Wppy0kw/viewform?usp=header"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Enquire now !
-              </a>
+            <Button
+              onClick={() =>
+                window.open(
+                  "https://docs.google.com/forms/d/e/1FAIpQLSc83Q5J4G-IRYqQ5FH5blbdKvOXyZP5VcPN0HEmNb2Wppy0kw/viewform?usp=header",
+                  "_blank"
+                )
+              }
+            >
+              Enquire Now!
             </Button>
 
             {/* Mobile Menu Button */}
