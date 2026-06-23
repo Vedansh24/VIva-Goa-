@@ -65,16 +65,14 @@ export default function Navbar() {
               ))}
             </nav>
 
-            <Button
-              onClick={() =>
-                window.open(
-                  "https://docs.google.com/forms/d/e/1FAIpQLSc83Q5J4G-IRYqQ5FH5blbdKvOXyZP5VcPN0HEmNb2Wppy0kw/viewform?usp=header",
-                  "_blank"
-                )
-              }
-              className="bg-amber-400 hover:bg-amber-300 text-black font-bold px-5 py-2 rounded-xl shadow-lg shadow-amber-500/20 transition-all duration-200 hover:shadow-amber-400/30 hover:scale-105"
-            >
-              Enquire Now
+            <Button asChild>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc83Q5J4G-IRYqQ5FH5blbdKvOXyZP5VcPN0HEmNb2Wppy0kw/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Enquire now !
+              </a>
             </Button>
 
             {/* Mobile Menu Button */}
