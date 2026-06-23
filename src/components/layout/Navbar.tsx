@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Building2, Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { navLinks, GOOGLE_FORM_URL } from "@/data";
 import { cn } from "@/lib/utils";
 
@@ -65,16 +65,14 @@ export default function Navbar() {
               ))}
             </nav>
 
-            <Button
-              onClick={() =>
-                window.open(
-                  "https://docs.google.com/forms/d/e/1FAIpQLSc83Q5J4G-IRYqQ5FH5blbdKvOXyZP5VcPN0HEmNb2Wppy0kw/viewform?usp=header",
-                  "_blank"
-                )
-              }
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc83Q5J4G-IRYqQ5FH5blbdKvOXyZP5VcPN0HEmNb2Wppy0kw/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={buttonVariants()}
             >
               Enquire Now!
-            </Button>
+            </a>
 
             {/* Mobile Menu Button */}
             <button
@@ -117,17 +115,14 @@ export default function Navbar() {
                 </motion.button>
               ))}
               <div className="mt-6 pt-6 border-t border-white/10">
-                <Button
-                  onClick={() =>
-                    window.open(
-                      "https://docs.google.com/forms/d/e/1FAIpQLSc83Q5J4G-IRYqQ5FH5blbdKvOXyZP5VcPN0HEmNb2Wppy0kw/viewform?usp=header",
-                      "_blank"
-                    )
-                  }
-                  className="w-full bg-amber-400 hover:bg-amber-300 text-black font-semibold rounded-xl py-3"
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc83Q5J4G-IRYqQ5FH5blbdKvOXyZP5VcPN0HEmNb2Wppy0kw/viewform?usp=header"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={cn(buttonVariants(), "w-full bg-amber-400 hover:bg-amber-300 text-black font-semibold rounded-xl py-3 flex justify-center")}
                 >
                   Submit Requirement
-                </Button>
+                </a>
               </div>
             </motion.nav>
           </motion.div>
