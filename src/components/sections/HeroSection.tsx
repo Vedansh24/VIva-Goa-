@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative flex flex-col items-center justify-center overflow-hidden bg-background h-[550px]"
+      className="relative flex flex-col items-center justify-center overflow-visible md:overflow-hidden bg-background h-[550px]"
     >
       {/* Background image overlay */}
       <div

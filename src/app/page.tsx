@@ -16,7 +16,7 @@ export default function Home() {
       <HeroSection />
 
       {/* Primary Lead Gen CTA */}
-      <div className="bg-background pt-12 pb-6 px-4 flex justify-center relative z-20">
+      <div className="bg-background pt-28 sm:pt-12 pb-6 px-4 flex justify-center relative z-20">
         <a
           href={GOOGLE_FORM_URL}
           target="_blank"
@@ -27,8 +27,7 @@ export default function Home() {
           <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
         </a>
       </div>
-
-      {/* WhatsApp Contact */}
+       {/* WhatsApp Contact */}
       <div className="bg-background pt-12 pb-6 px-4 flex justify-center relative z-20">
         <a
           href="https://wa.me/917000608762"
