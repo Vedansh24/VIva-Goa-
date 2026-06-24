@@ -1,10 +1,10 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import HeroSection from "@/components/sections/HeroSection";
-import PropertiesSection from "@/components/sections/PropertiesSection";
+// import PropertiesSection from "@/components/sections/PropertiesSection";
 import WhyUsSection from "@/components/sections/WhyUsSection";
 import AboutSection from "@/components/sections/AboutSection";
-import TestimonialsSection from "@/components/sections/TestimonialsSection";
+// import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import CtaSection from "@/components/sections/CtaSection";
 
 export default function Home() {
@@ -12,10 +12,10 @@ export default function Home() {
     <main className="min-h-screen bg-[#0a0a0f]">
       <Navbar />
       <HeroSection />
-      <PropertiesSection />
+      {/* <PropertiesSection /> */}
       <WhyUsSection />
       <AboutSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <CtaSection />
       <Footer />
     </main>

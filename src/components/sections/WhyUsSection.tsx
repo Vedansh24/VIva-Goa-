@@ -79,7 +79,7 @@ export default function WhyUsSection() {
             </span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 tracking-tight">
-            Why Choose LuxEstate?
+            Why Choose VivaGoa Realty ?
           </h2>
           <p className="text-white/50 text-lg max-w-xl mx-auto">
             We don&apos;t just sell properties — we craft life-defining experiences for those who demand the extraordinary.
