@@ -16,7 +16,7 @@ export default function Home() {
       <HeroSection />
 
       {/* Primary Lead Gen CTA */}
-      <div className="bg-background pt-28 sm:pt-12 pb-6 px-4 flex justify-center relative z-20">
+      <div className="bg-background pt-12 sm:pt-12 pb-6 px-4 flex justify-center relative z-20">
         <a
           href={GOOGLE_FORM_URL}
           target="_blank"
