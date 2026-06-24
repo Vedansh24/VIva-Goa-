@@ -21,7 +21,7 @@ export default function Home() {
           href={GOOGLE_FORM_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full sm:w-[450px] bg-amber-400 hover:bg-amber-500 text-black font-bold py-5 px-8 rounded-2xl shadow-xl shadow-amber-500/10 hover:shadow-amber-500/25 transition-all hover:scale-[1.02] flex items-center justify-center text-lg sm:text-xl tracking-tight group"
+          className="w-full sm:w-[450px] h-[50px] bg-amber-400 hover:bg-amber-500 text-black font-bold py-5 px-8 rounded-2xl shadow-xl shadow-amber-500/10 hover:shadow-amber-500/25 transition-all hover:scale-[1.02] flex items-center justify-center text-lg sm:text-xl tracking-tight group"
         >
           Enquire Now
           <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
@@ -33,7 +33,7 @@ export default function Home() {
           href="https://wa.me/917000608762"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full sm:w-[450px] bg-amber-400 hover:bg-amber-500 text-black font-bold py-5 px-8 rounded-2xl shadow-xl shadow-amber-500/10 hover:shadow-amber-500/25 transition-all hover:scale-[1.02] flex items-center justify-center text-lg sm:text-xl tracking-tight group"
+          className="w-full sm:w-[450px] h-[50px] bg-amber-400 hover:bg-amber-500 text-black font-bold py-5 px-8 rounded-2xl shadow-xl shadow-amber-500/10 hover:shadow-amber-500/25 transition-all hover:scale-[1.02] flex items-center justify-center text-lg sm:text-xl tracking-tight group"
         >
           WhatsApp Contact
           <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />

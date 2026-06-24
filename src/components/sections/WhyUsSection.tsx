@@ -62,7 +62,7 @@ const featuresList = [
 
 export default function WhyUsSection() {
   return (
-    <section id="why-us" className="py-24 bg-background">
+    <section id="why-us" className="py-18 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
