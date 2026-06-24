@@ -28,7 +28,7 @@ export default function Home() {
         </a>
       </div>
        {/* WhatsApp Contact */}
-      <div className="bg-background pt-12 pb-6 px-4 flex justify-center relative z-20">
+      <div className="bg-background pt-1 pb-1 px-4 flex justify-center relative z-20">
         <a
           href="https://wa.me/917000608762"
           target="_blank"

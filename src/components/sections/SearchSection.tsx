@@ -40,17 +40,18 @@ export default function SearchSection() {
           />
         </div>
         
-        <div className="flex w-full sm:w-auto items-center gap-2">
+        <div className="flex flex-col sm:flex-row w-full sm:w-auto gap-2">
           <Button
             className="w-full sm:w-32 bg-amber-400 hover:bg-amber-500 text-black font-bold text-base py-6 rounded-xl shadow-md transition-all hover:scale-[1.02]"
           >
             <Search className="w-5 h-5 mr-2" />
             Search
           </Button>
+          
           <Button
-            onClick={() => window.open(GOOGLE_FORM_URL, "_blank")}
-            className="w-full sm:w-auto bg-black hover:bg-gray-800 text-white font-bold text-base py-6 px-6 rounded-xl shadow-md transition-all hover:scale-[1.02] whitespace-nowrap"
-          >
+  onClick={() => window.open(GOOGLE_FORM_URL, "_blank")}
+  className="w-full sm:w-auto bg-black hover:bg-gray-800 text-white font-bold text-base py-6 px-6 rounded-xl shadow-md transition-all hover:scale-[1.02]"
+>
             Enquire Now
           </Button>
         </div>
