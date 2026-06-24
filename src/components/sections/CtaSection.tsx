@@ -52,10 +52,12 @@ export default function CtaSection() {
             </Button>
             
             <a
-              href="mailto:concierge@luxestate.com"
+              href="https://wa.me/917000608762"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-10 py-4 rounded-xl text-foreground font-semibold border border-border hover:bg-foreground/5 transition-colors w-full sm:w-auto flex items-center justify-center"
             >
-              Contact Concierge
+              WhatsApp Contact 
             </a>
           </div>
         </motion.div>

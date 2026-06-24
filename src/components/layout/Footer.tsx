@@ -37,7 +37,7 @@ export default function Footer() {
                   <MapPin className="w-4 h-4 text-amber-400" />
                 </div>
                 <span className="text-muted-foreground text-sm leading-relaxed mt-2.5">
-                  Govekar Nagar St, Govekar Nagar, Porvorim, Pilern, Goa 403501
+                  A3, Solsons Abode, Govekar Nagar, Pilern, Goa 403521, India
                 </span>
               </li>
               <li className="flex items-center gap-4 group">
