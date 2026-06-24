@@ -21,7 +21,7 @@ function PropertyCard({ property, index }: { property: Property; index: number }
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
     >
-      <Card className="group overflow-hidden bg-white/[0.03] border-white/10 hover:border-amber-400/30 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-500/10 rounded-2xl cursor-pointer">
+      <Card className="group overflow-hidden bg-card border-border hover:border-amber-400/30 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-500/10 rounded-2xl cursor-pointer">
         {/* Image */}
         <div className="relative overflow-hidden h-60">
           <img
@@ -59,25 +59,25 @@ function PropertyCard({ property, index }: { property: Property; index: number }
         </div>
 
         <CardContent className="p-5">
-          <h3 className="text-white font-semibold text-lg mb-1 group-hover:text-amber-400 transition-colors duration-300">
+          <h3 className="text-foreground font-semibold text-lg mb-1 group-hover:text-amber-500 dark:group-hover:text-amber-400 transition-colors duration-300">
             {property.title}
           </h3>
-          <div className="flex items-center gap-1.5 text-white/50 text-sm mb-4">
+          <div className="flex items-center gap-1.5 text-muted-foreground text-sm mb-4">
             <MapPin className="w-3.5 h-3.5 flex-shrink-0" />
             <span>{property.location}</span>
           </div>
 
           {/* Specs */}
-          <div className="flex items-center gap-4 pt-4 border-t border-white/5">
-            <div className="flex items-center gap-1.5 text-white/50 text-sm">
+          <div className="flex items-center gap-4 pt-4 border-t border-border">
+            <div className="flex items-center gap-1.5 text-muted-foreground text-sm">
               <Bed className="w-4 h-4" />
               <span>{property.beds} Beds</span>
             </div>
-            <div className="flex items-center gap-1.5 text-white/50 text-sm">
+            <div className="flex items-center gap-1.5 text-muted-foreground text-sm">
               <Bath className="w-4 h-4" />
               <span>{property.baths} Baths</span>
             </div>
-            <div className="flex items-center gap-1.5 text-white/50 text-sm ml-auto">
+            <div className="flex items-center gap-1.5 text-muted-foreground text-sm ml-auto">
               <Square className="w-4 h-4" />
               <span>{property.sqft.toLocaleString()} sqft</span>
             </div>
@@ -90,7 +90,7 @@ function PropertyCard({ property, index }: { property: Property; index: number }
 
 export default function PropertiesSection() {
   return (
-    <section id="properties" className="py-24 bg-[#0a0a0f]">
+    <section id="properties" className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -102,14 +102,14 @@ export default function PropertiesSection() {
         >
           <div className="inline-flex items-center gap-2 bg-amber-400/10 border border-amber-400/20 rounded-full px-4 py-1.5 mb-4">
             <Star className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
-            <span className="text-amber-300 text-xs font-semibold tracking-widest uppercase">
+            <span className="text-amber-500 dark:text-amber-300 text-xs font-semibold tracking-widest uppercase">
               Curated Listings
             </span>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 tracking-tight">
+          <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4 tracking-tight">
             Featured Properties
           </h2>
-          <p className="text-white/50 text-lg max-w-xl mx-auto">
+          <p className="text-muted-foreground text-lg max-w-xl mx-auto">
             Handpicked ultra-luxury properties that define the pinnacle of contemporary living.
           </p>
         </motion.div>

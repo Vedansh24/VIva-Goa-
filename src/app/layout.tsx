@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 
 const inter = Inter({
@@ -13,6 +14,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
   display: "swap",
 });
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -29,7 +32,16 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${plusJakartaSans.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-sans text-[15px] sm:text-base leading-relaxed tracking-normal">{children}</body>
+      <body className="min-h-full flex flex-col font-sans text-[15px] sm:text-base leading-relaxed tracking-normal">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

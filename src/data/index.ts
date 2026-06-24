@@ -9,7 +9,7 @@ export const navLinks: NavLink[] = [
   { label: "Contact", href: "#contact" },
 ];
 
-export const GOOGLE_FORM_URL = "https://forms.google.com";
+export const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSc83Q5J4G-IRYqQ5FH5blbdKvOXyZP5VcPN0HEmNb2Wppy0kw/viewform";
 
 export const featuredProperties: Property[] = [
   {

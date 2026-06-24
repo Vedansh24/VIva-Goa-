@@ -51,7 +51,7 @@ export default function SearchSection() {
             onClick={() => window.open(GOOGLE_FORM_URL, "_blank")}
             className="w-full sm:w-auto bg-black hover:bg-gray-800 text-white font-bold text-base py-6 px-6 rounded-xl shadow-md transition-all hover:scale-[1.02] whitespace-nowrap"
           >
-            Submit Requirement
+            Enquire Now
           </Button>
         </div>
       </div>
