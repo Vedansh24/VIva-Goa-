@@ -8,6 +8,7 @@ import WhyUsSection from "@/components/sections/WhyUsSection";
 import CtaSection from "@/components/sections/CtaSection";
 import { GOOGLE_FORM_URL } from "@/data";
 import { ArrowRight } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -33,10 +34,13 @@ export default function Home() {
           href="https://wa.me/917000608762"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full sm:w-[450px] h-[50px] bg-green-400 hover:bg-green-500 text-black font-bold py-5 px-8 rounded-2xl shadow-xl shadow-green-500/10 hover:shadow-green-500/25 transition-all hover:scale-[1.02] flex items-center justify-center text-lg sm:text-xl tracking-tight group"
+          className="w-full sm:w-[450px] h-[50px] bg-[#25D366] hover:bg-[#1DA851] text-black font-bold py-5 px-8 rounded-2xl shadow-xl shadow-green-500/10 hover:shadow-green-500/25 transition-all hover:scale-[1.02] flex items-center justify-center text-lg sm:text-xl tracking-tight group"
+        // className="w-full sm:w-[450px] h-[50px] bg-amber-400 hover:bg-amber-500 text-black font-bold py-5 px-8 rounded-2xl shadow-xl shadow-amber-500/10 hover:shadow-amber-500/25 transition-all hover:scale-[1.02] flex items-center justify-center text-lg sm:text-xl tracking-tight group"
+        // className="px-10 py-4 rounded-xl text-white font-semibold border border-[#25D366] bg-[#25D366] hover:bg-[#1DA851] transition-all duration-300 w-full sm:w-auto flex items-center justify-center gap-2 hover:scale-[1.02] shadow-lg hover:shadow-green-500/30"
         >
-          WhatsApp Contact
-          <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
+          <FaWhatsapp className="w-6 h-6" />
+          <span>Chat on WhatsApp </span>
+          <ArrowRight className="w-5 h-5" />
         </a>
       </div>
 

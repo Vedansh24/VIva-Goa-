@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { GOOGLE_FORM_URL } from "@/data";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function CtaSection() {
   return (
@@ -17,11 +18,11 @@ export default function CtaSection() {
         }}
       />
       <div className="absolute inset-0 bg-background/90" />
-      
+
       {/* Decorative gradients */}
       <div className="absolute top-0 right-0 w-full h-px bg-gradient-to-r from-transparent via-amber-400/50 to-transparent" />
       <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-amber-400/50 to-transparent" />
-      
+
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -35,11 +36,11 @@ export default function CtaSection() {
               Exceptional Property?
             </span>
           </h2>
-          
+
           <p className="text-muted-foreground text-lg sm:text-xl mb-10 max-w-2xl mx-auto">
             Connect with our luxury advisors today. Share your requirements and let us curate a personalized selection of properties that match your vision.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
               id="cta-submit-btn"
@@ -50,14 +51,15 @@ export default function CtaSection() {
               Enquire Now
               <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
             </Button>
-            
+
             <a
               href="https://wa.me/917000608762"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-10 py-4 rounded-xl text-foreground font-semibold border border-border hover:bg-foreground/5 transition-colors w-full sm:w-auto flex items-center justify-center"
+              className="px-10 py-4 rounded-xl text-black font-semibold border border-[#25D366] bg-[#25D366] hover:bg-[#1DA851] transition-colors w-full sm:w-auto flex items-center justify-center"
             >
-              WhatsApp Contact 
+              <FaWhatsapp className="w-6 h-6" />
+              Chat on WhatsApp
             </a>
           </div>
         </motion.div>
