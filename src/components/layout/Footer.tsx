@@ -37,7 +37,7 @@ export default function Footer() {
                   <MapPin className="w-4 h-4 text-amber-400" />
                 </div>
                 <span className="text-muted-foreground text-sm leading-relaxed mt-2.5">
-                  A3, Solsons Abode, Govekar Nagar, Pilern, Goa 403521, India
+                  A3 Solsoms Abode , Govekar Nagar , Pilerne , North Goa, Goa 403521, India
                 </span>
               </li>
               <li className="flex items-center gap-4 group">
@@ -69,7 +69,7 @@ export default function Footer() {
               <div className="absolute inset-0 bg-background/40 group-hover:bg-transparent transition-colors duration-500 pointer-events-none z-10" />
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1091.7318744824397!2d73.82403330923509!3d15.531279093300919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88be14cf650ffaa5%3A0xd1aa9d6c13840c73!2sViva%20Goa%20Realty!5e0!3m2!1sen!2sin!4v1782269481997!5m2!1sen!2sin"
-                className="w-full h-full absolute inset-0 grayscale-[50%] opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+                className="w-full h-full absolute inset-0 grayscale-[50%] opacity-100 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
                 style={{ border: 0 }}
                 allowFullScreen={true}
                 loading="lazy"
@@ -82,7 +82,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="pt-8 border-t border-border flex flex-col items-center justify-center">
           <p className="text-muted-foreground text-sm font-medium tracking-wide">
-            © {new Date().getFullYear()} VivaGoa Realty. All rights reserved.
+            © {new Date().getFullYear()} Viva Goa Realty. All rights reserved.
           </p>
         </div>
       </div>

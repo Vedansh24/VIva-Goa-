@@ -49,7 +49,8 @@ export default function Navbar() {
                 <Building2 className="w-5 h-5 text-white" />
               </div>
               <span className="text-foreground font-bold text-xl tracking-tight">
-                Viva<span className="text-amber-400">Goa Realty</span>
+                Viva Goa Realty
+                {/* <span className="text-amber-400">Goa Realty</span> */}
               </span>
             </motion.div>
 

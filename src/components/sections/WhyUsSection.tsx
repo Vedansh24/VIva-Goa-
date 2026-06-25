@@ -54,9 +54,9 @@ const featuresList = [
   },
   {
     icon: "Award",
-    title: "Award-Winning Excellence",
+    title: "Customer-First Approach",
     description:
-      "Recognized as the #1 luxury real estate firm for 7 consecutive years by Forbes, earning trust through consistent excellence.",
+      "Your goals come first. We focus on understanding your requirements and delivering a smooth, stress-free property buying experience.",
   },
 ];
 
@@ -79,7 +79,7 @@ export default function WhyUsSection() {
             </span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            Why Choose VivaGoa Realty ?
+            Why Choose Viva Goa Realty ?
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
             We don&apos;t just sell properties — we craft life-defining experiences for those who demand the extraordinary.
