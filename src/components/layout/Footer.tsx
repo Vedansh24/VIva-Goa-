@@ -18,9 +18,14 @@ export default function Footer() {
                 <Building2 className="w-5 h-5 text-white" />
               </div>
               <span className="text-foreground font-bold text-2xl tracking-tight">
-                VivaGoa <span className="text-amber-400">Realty</span>
-              </span>
+                Viva Goa Realty</span>
+
             </div>
+            <span className="text-foreground font-bold text-2xl tracking-tight">
+              RERA Reg. No. AGGO02231173
+            </span>
+            <br></br>
+
             <p className="text-muted-foreground text-base leading-relaxed max-w-sm">
               The premier destination for luxury real estate. Connect with us to discover properties that redefine elegance.
             </p>
@@ -86,6 +91,6 @@ export default function Footer() {
           </p>
         </div>
       </div>
-    </footer>
+    </footer >
   );
 }
