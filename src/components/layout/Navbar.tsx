@@ -48,10 +48,15 @@ export default function Navbar() {
               <div className="w-9 h-9 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center shadow-lg shadow-amber-500/25">
                 <Building2 className="w-5 h-5 text-white" />
               </div>
-              <span className="text-foreground font-bold text-xl tracking-tight">
-                Viva Goa Realty
-                {/* <span className="text-amber-400">Goa Realty</span> */}
-              </span>
+              <div className="flex flex-col">
+                <span className="text-foreground font-bold text-xl tracking-tight leading-tight">
+                  Viva Goa Realty
+                  {/* <span className="text-amber-400">Goa Realty</span> */}
+                </span>
+                <span className="text-foreground/50 font-medium leading-tight" style={{ fontSize: '10px' }}>
+                  RERA Reg. No. AGGO02231173
+                </span>
+              </div>
             </motion.div>
 
             {/* Desktop Nav */}
